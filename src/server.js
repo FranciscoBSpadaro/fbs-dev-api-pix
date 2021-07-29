@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const express = require('express');
-// deprecated now we use  app.use(express.urlencoded({extended: true}));  const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser'); is deprecated now we use  app.use(express.urlencoded({extended: true}));  
 
 const app = express();
 
