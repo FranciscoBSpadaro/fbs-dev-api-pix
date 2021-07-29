@@ -1,0 +1,26 @@
+{
+  "name": "api-pix-gn",
+  "version": "1.0.0",
+  "description": "Integração API Pix GerenciaNet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "prod": "src/server.js"
+  },
+  "keywords": [
+    "API",
+    "Pix",
+    "GerenciaNet"
+  ],
+  "author": "FBS-DEV",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
