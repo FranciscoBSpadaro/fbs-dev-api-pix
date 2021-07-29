@@ -3,6 +3,9 @@ Aplicação que gera cobrança , QRCode e aceita pagamentos via Pix.
 
 ## Dependências
 - Node 
+- express
+- Axios
+- ejs
 
 ## Como rodar
 - yarn install
