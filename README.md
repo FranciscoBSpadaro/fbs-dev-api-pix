@@ -27,3 +27,4 @@ Criar as devidas variáveis de ambiente. Se estiver rodando localmente, remoear 
 | NODE_ENV | Colocar development ou production dependendo do ambiente |
 | GN_CERT | Nome do certificado p12 que está na pasta `certs` criado por você |
 
+creditos :  https://youtu.be/bo1THXaohU0
