@@ -1,12 +1,13 @@
 # API Pix - Gerencianet
-Aplicação que gera cobrança e QRCode e aceita pagamentos via Pix. Projeto desenvolvido no [vídeo do YouTube do canal Programador a Bordo](https://youtu.be/bo1THXaohU0)!
+Aplicação que gera cobrança e QRCode e aceita pagamentos via Pix. 
 
 ## Dependências
-- Node v15.5.0
+- Node 
 
 ## Como rodar
-- npm install
-- npm run start:dev
+- yarn install
+- yarn dev
+- yarn prod
 
 ## Configurações
 ### Diretório de certificados
