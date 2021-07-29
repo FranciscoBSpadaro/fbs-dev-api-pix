@@ -4,7 +4,6 @@ if (process.env.NODE_ENV !== 'production') {
 
 const express = require('express');
 // deprecated now we use  app.use(express.urlencoded({extended: true}));  const bodyParser = require('body-parser');
-const GNRequest = require('./apis/gerencianet');
 
 const app = express();
 
