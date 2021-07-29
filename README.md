@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # API Pix - Gerencianet
 Aplicação que gera cobrança e QRCode e aceita pagamentos via Pix. Projeto desenvolvido no [vídeo do YouTube do canal Programador a Bordo](https://youtu.be/bo1THXaohU0)!
 
@@ -23,3 +24,8 @@ Criar as devidas variáveis de ambiente. Se estiver rodando localmente, remoear 
 | NODE_ENV | Colocar development ou production dependendo do ambiente |
 | GN_CERT | Nome do certificado p12 que está na pasta `certs` criado por você |
 
+=======
+# fbs-dev-api-pix
+Projeto inicial api pix gerencia net 
+gerar qr code de cobrança pix
+>>>>>>> 3fef34f497a899cbe9580dd27ebbe7dc41fcbd7d
