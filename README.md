@@ -1,5 +1,5 @@
 # API Pix - Gerencianet
-Aplicação que gera cobrança e QRCode e aceita pagamentos via Pix. 
+Aplicação que gera cobrança , QRCode e aceita pagamentos via Pix. 
 
 ## Dependências
 - Node 
