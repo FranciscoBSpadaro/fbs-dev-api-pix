@@ -31,7 +31,7 @@ const authenticate = ({ clientID, clientSecret }) => {
     data: {
       grant_type: 'client_credentials'
     }
-  })
+  })//.then(console.log) vefifica o corpo do request e .then((response) => console.log(response.data)) e veja o token recebido
 }
 
 // variavel que armazena o token de acesso para ser exportado para  as rotas de request
