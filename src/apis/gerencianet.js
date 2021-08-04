@@ -31,11 +31,7 @@ const authenticate = ({ clientID, clientSecret }) => {
     data: {
       grant_type: 'client_credentials'
     }
-<<<<<<< HEAD
   })//.then(console.log) vefifica o corpo do request e .then((response) => console.log(response.data)) e veja o token recebido
-=======
-  })
->>>>>>> 858f7edd587fc3897bb7e4506551ca363feb7857
 }
 
 // variavel que armazena o token de acesso para ser exportado para  as rotas de request
@@ -47,11 +43,7 @@ const GNRequest = async (credentials) => {
     baseURL: process.env.GN_ENDPOINT,
     httpsAgent: agent,
     headers: {
-<<<<<<< HEAD
       Authorization: `Bearer ${accessToken}`, // token recebido do tipo Bearer
-=======
-      Authorization: `Bearer ${accessToken}`,
->>>>>>> 858f7edd587fc3897bb7e4506551ca363feb7857
       'Content-Type': 'application/json'
     }
   })
